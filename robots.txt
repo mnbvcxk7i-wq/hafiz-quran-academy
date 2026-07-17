@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://mnbvcxk7i-wq.github.io/hafiz-quran-academy/sitemap.xml
