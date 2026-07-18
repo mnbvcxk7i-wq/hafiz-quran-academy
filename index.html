@@ -665,6 +665,58 @@ color:black;
 margin-bottom:15px;
 
 }
+    /* Testimonials */
+
+.testimonials{
+    background:#111827;
+    padding:80px 20px;
+    text-align:center;
+}
+
+.testimonials h2{
+    color:#FFD700;
+    font-size:38px;
+    margin-bottom:10px;
+}
+
+.section-text{
+    color:#ccc;
+    margin-bottom:50px;
+}
+
+.testimonial-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.testimonial-card{
+    background:#1f2937;
+    padding:30px;
+    border-radius:18px;
+    transition:.3s;
+    border:1px solid rgba(255,255,255,.08);
+}
+
+.testimonial-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 40px rgba(255,215,0,.25);
+}
+
+.testimonial-card h3{
+    color:#FFD700;
+    margin-bottom:15px;
+}
+
+.testimonial-card p{
+    color:#ddd;
+    line-height:1.8;
+}
+
+.testimonial-card h4{
+    margin-top:20px;
+    color:#FFD700;
+}
 </style>
 
 </head>
@@ -1074,6 +1126,42 @@ Book Free Trial
 
 </div>
 
+</section>
+    <section class="testimonials" id="reviews">
+    <div class="container">
+        <h2>What Our Students Say</h2>
+        <p class="section-text">
+            Trusted by students and families from different countries.
+        </p>
+
+        <div class="testimonial-grid">
+
+            <div class="testimonial-card">
+                <h3>⭐⭐⭐⭐⭐</h3>
+                <p>
+                    "Excellent Quran teacher. My son improved his Tajweed in only two months."
+                </p>
+                <h4>— Ahmed, UK</h4>
+            </div>
+
+            <div class="testimonial-card">
+                <h3>⭐⭐⭐⭐⭐</h3>
+                <p>
+                    "Very patient teacher with flexible timings. Highly recommended."
+                </p>
+                <h4>— Fatima, Canada</h4>
+            </div>
+
+            <div class="testimonial-card">
+                <h3>⭐⭐⭐⭐⭐</h3>
+                <p>
+                    "Professional online Quran classes with clear pronunciation and Islamic manners."
+                </p>
+                <h4>— Muhammad, USA</h4>
+            </div>
+
+        </div>
+    </div>
 </section>
 </body>
 </html>
